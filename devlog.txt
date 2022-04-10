@@ -1,0 +1,2 @@
+1 Created html for Navbar - still learning HTML
+2 Added CSS to navbar. Shadow box for easily visualising navbar
