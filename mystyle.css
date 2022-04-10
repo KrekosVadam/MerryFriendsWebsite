@@ -1,5 +1,4 @@
 * {
-  background-color:#ffffff !important;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,13 +6,24 @@
 }
 
 body {
-  color:#152238;
+  color: #152238;
 }
 
 h1 {
-  color:#152238;
+  color: #152238;
+}
+
+.header {
+  box-shadow: 1px 1px 5px #738494;
 }
 
 .navbar {
-
+  color: #152238;
+  height: 80px
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
