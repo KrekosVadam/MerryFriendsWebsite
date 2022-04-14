@@ -1,2 +1,5 @@
 1 Created html for Navbar - still learning HTML
-2 Added CSS to navbar. Shadow box for easy visualisation of navbar - still learning
+2 Added CSS to navbar. Shadow box for easily visualising navbar
+3 Refined navbar. Text is now in centre, is spaced evenly. READY FOR TEXT STYLING.
+4 Began styling of text. Edited weight & added hover. *must add functionality for
+  clicking link when not pointing to text
