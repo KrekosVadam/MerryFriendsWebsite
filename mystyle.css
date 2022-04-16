@@ -1,7 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif; !important;
+  color: #152238;
 }
 
 .navbar {
@@ -12,65 +14,68 @@
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  position: sticky;
-  box-shadow: 1px 1px 5px #738494;
+  position: fixed;
   top: 0;
   z-index: 10;
+  box-shadow: 1px 1px 5px #738494;
+}
+
+#navbar__logo {
+  height: 80px;
+  display: flex;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  align-items: center;
+  margin: 0 -2rem;
+  padding: 0 2rem;
+  cursor: pointer;
 }
 
 .navbar__container {
   height: 80px;
   width: 100%;
-  max-width: 1600px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 0 4rem;
-  z-index: 1;
-}
-
-.navbar_menu {
-  height: 80px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
-#navbar__logo {
-  color: #011F3D;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.navbar__item {
-  height: 80px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
+  margin: 0 auto;
   padding: 0 2rem;
 }
 
-.navbar__links:hover {
-  color: green;
+.navbar__menu {
+  display: none;
 }
 
-.navbar__links {
-  color: #011F3D;
-  height: 80;
-  width: auto;
-  display: flex;
-  text-decoration: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: color .3s ease-in-out, fill .3s ease-in-out;
-}
+@media (min-width: 768px) {
+  .navbar__container {
+    padding: 0 4rem;
+  }
 
-body {
-  height: 100%;
+  .navbar__menu {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+  }
+
+  .navbar__item {
+    height: 80px;
+  }
+
+  .navbar__link {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 2rem;
+  }
+
+  .navbar__link:hover {
+    color: #8d3cf7;
+    transition: color .2s ease-in-out;
+  }
+
 }

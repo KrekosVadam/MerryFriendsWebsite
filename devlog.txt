@@ -3,3 +3,4 @@
 3 Refined navbar. Text is now in centre, is spaced evenly. READY FOR TEXT STYLING.
 4 Began styling of text. Edited weight & added hover. *must add functionality for
   clicking link when not pointing to text
+5 Rehauled CSS. Made "mobile-mode" priority. Website will now correctly go into mobile mode.
