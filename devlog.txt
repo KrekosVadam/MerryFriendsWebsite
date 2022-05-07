@@ -1,6 +1,7 @@
-1 Created html for Navbar - still learning HTML
-2 Added CSS to navbar. Shadow box for easily visualising navbar
-3 Refined navbar. Text is now in centre, is spaced evenly. READY FOR TEXT STYLING.
-4 Began styling of text. Edited weight & added hover. *must add functionality for
-  clicking link when not pointing to text
-5 Rehauled CSS. Made "mobile-mode" priority. Website will now correctly go into mobile mode.
+Jadon 1   Created html for Navbar - still learning HTML
+Jadon 2   Added CSS to navbar. Shadow box for easily visualising navbar
+Jadon 3   Refined navbar. Text is now in centre, is spaced evenly. READY FOR TEXT STYLING.
+Jadon 4   Began styling of text. Edited weight & added hover. *must add functionality for
+          clicking link when not pointing to text
+Jadon 5   Rehauled CSS. Made "mobile-mode" priority. Website will now correctly go into mobile mode.
+Jadon 6   Added 'hamburger'. Problem currently aligning in centre + getting pointer box correct
